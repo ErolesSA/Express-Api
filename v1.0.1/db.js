@@ -3,9 +3,9 @@ const mysql = require('mysql2');
 
 const connection = mysql.createConnection({
   host: 'localhost',
-  user: 'root',        // tu usuario de MySQL
-  password: '',        // tu contraseña
-  database: 'mi_api'  // el nombre de tu base
+  user: 'USUARIO_DB',        // tu usuario de MySQL
+  password: 'PASSWORD_DB',        // tu contraseña
+  database: 'TABLE_DB'  // el nombre de tu base
 });
 
 connection.connect(err => {
@@ -17,3 +17,4 @@ connection.connect(err => {
 });
 
 module.exports = connection;
+
