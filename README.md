@@ -1,2 +1,4 @@
 # Express-Api
-Express Api V
+
+## v1.0.0
+- API básica con rutas GET y POST de usuarios
